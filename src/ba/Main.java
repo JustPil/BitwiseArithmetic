@@ -83,6 +83,10 @@ public class Main {
         System.out.print("\nBinary and Hexadecimal Arithmetic\n1 - BINARY ARITHMETIC\n2 - HEXADECIMAL ARITHMETIC - " +
                 "\nX - Terminate\n\nEnter choice: ");
     }
+
+    /**
+     * binaryMenu A menu of choices for interacting with a BinaryArithmetic object.
+     */
     public static void binaryMenu() {
         System.out.print("\nBinary Arithmetic\n1 - BINARY TO DECIMAL - Translate a binary number " +
                 "to decimal\n2 - DECIMAL TO BINARY - Translate a decimal number to binary\n3 - ADD DECIMALS IN" +
@@ -90,8 +94,12 @@ public class Main {
                 " BINARY NUMBERS - Perform subtraction on two unsigned binary numbers\nX - Terminate\n\nEnter " +
                 "choice: \n");
     }
+
+    /**
+     * hexMenu A menu of choices for interacting with a HexadecimalArithmetic object.
+     */
     public static void hexMenu() {
-        System.out.print("Hexadecmial Arithmetic\n1 - HEXADECIMAL TO DECIMAL - Translate a hexadecimal number to " +
+        System.out.print("Hexadecimal Arithmetic\n1 - HEXADECIMAL TO DECIMAL - Translate a hexadecimal number to " +
                 "decimal\n2 - DECIMAL TO HEXADECIMAL - Translate a decimal number to hexadecimal\n3 - ADD " +
                 "HEXADECIMALS - Perform addition on two hexadecimal numbers\n4 - MULTIPLY HEXADECIMALS - Perform " +
                 "multiplication on a first hexadecimal digit by a second hexadecimal number of multiple digits\nX - " +
