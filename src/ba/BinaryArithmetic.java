@@ -52,7 +52,7 @@ public class BinaryArithmetic {
      * @return A string containing the decimal representation of the addition.
      */
     public String addDecimalStrings(String s1, String s2, int base) {
-        if(base < 2 || base >= 10) {
+        if(base < 2 || base > 10) {
             throw new IllegalArgumentException("Base must be between 2 and 10 inclusive.");
         }
         if(s1.length() > s2.length()) {
